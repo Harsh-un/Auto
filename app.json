@@ -1,7 +1,7 @@
 {
     "name": "Auto Approove Bot",
     "description": "Auto approove telegram group/channel join requests bot.",
-    "repository": "https://github.com/ImDenuwan/Auto-Approve-Bot",
+    "repository": "https://github.com/harsh-un/Auto",
     "logo":"https://telegra.ph/file/a782e3bbbe40df8a4bb67.jpg",
     "keywords": [
         "Bot",
@@ -12,27 +12,33 @@
     "env": {
     "API_ID": {
       "description": "Enter your API_ID, get it from my.telegram.org/apps",
-      "required": true
+      "value": "",
+       "required": true
     },
     "API_HASH": {
       "description": "Enter your API_HASH, get it from my.telegram.org/apps",
-      "required": true
+      "value": "",
+       "required": true
     },
     "BOT_TOKEN": {
       "description": "Enter your Bot token, get it from @BotFather",
-      "required": true
+      "value": "",
+        "required": true
     },
     "CHID": {
       "description": "Enter your Force Subscribe channel ID",
-      "required": true
+      "value": "",
+        "required": true
     },,
     "FSUB": {
       "description": "Enter your Force Subscribe channel Username without @",
-      "required": true
+      "value": "",
+        "required": true
     },,
     "SUDO": {
       "description": "Enter Bot Owners IDS",
-      "required": true
+      "value": "",
+        "required": true
     }
         
   },
