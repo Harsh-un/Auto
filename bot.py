@@ -49,6 +49,8 @@ async def op(_, m :Message):
                         InlineKeyboardButton("📝ᴜᴘᴅᴀᴛᴇs", url="https://t.me/unb_info"),
                         InlineKeyboardButton("🖥️sᴜᴘᴘᴏʀᴛ", url="https://t.me/un_w0rld")
                     ],[
+                        InlineKeyboardButton("Hᴏᴡ ᴛᴏ Usᴇ⁉️", url="https://t.me/UNB_INFO/91")
+                    ],[
                         InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ➕", url="https://t.me/Auto_request_approve_7_bot?startgroup")
                     ]
                 ]
@@ -90,6 +92,8 @@ async def chk(_, cb : CallbackQuery):
                     [
                         InlineKeyboardButton("📝ᴜᴘᴅᴀᴛᴇs", url="https://t.me/unb_info"),
                         InlineKeyboardButton("🖥️sᴜᴘᴘᴏʀᴛ", url="https://t.me/un_w0rld")
+                    ],[
+                        InlineKeyboardButton("Hᴏᴡ ᴛᴏ Usᴇ⁉️", url="https://t.me/UNB_INFO/91")
                     ],[
                         InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ➕", url="https://t.me/Auto_request_approve_7_bot?startgroup")
                     ]
