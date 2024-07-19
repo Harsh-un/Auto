@@ -46,10 +46,10 @@ async def op(_, m :Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🗯 Channel", url="https://t.me/unb_info"),
-                        InlineKeyboardButton("💬 Support", url="https://t.me/un_w0rld")
+                        InlineKeyboardButton("📝ᴜᴘᴅᴀᴛᴇs", url="https://t.me/unb_info"),
+                        InlineKeyboardButton("🖥️sᴜᴘᴘᴏʀᴛ", url="https://t.me/un_w0rld")
                     ],[
-                        InlineKeyboardButton("Add me ➕", url="https://t.me/Auto_request_approve_7_bot?startgroup")
+                        InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ➕", url="https://t.me/Auto_request_approve_7_bot?startgroup")
                     ]
                 ]
             )
@@ -60,12 +60,12 @@ async def op(_, m :Message):
             keyboar = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Start me private 💁‍♂️", url="https://t.me/Auto_request_approve_7_bot?start=start")
+                        InlineKeyboardButton("sᴛᴀʀᴛ ᴍᴇ ɪɴ ᴘʀɪᴠᴀᴛᴇ", url="https://t.me/Auto_request_approve_7_bot?start=start")
                     ]
                 ]
             )
             add_group(m.chat.id)
-            await m.reply_text("**👋🏻Hᴇʟʟᴏ {}!\nwrite me private for more details**".format(m.from_user.first_name), reply_markup=keyboar)
+            await m.reply_text("**👋🏻Hᴇʟʟᴏ {}!\nᴡʀɪᴛᴇ ᴍᴇ ᴘʀɪᴠᴀᴛᴇ ғᴏʀ ᴍᴏʀᴇ ᴅᴇᴛᴀɪʟs**".format(m.from_user.first_name), reply_markup=keyboar)
         print(m.from_user.first_name +" Is started Your Bot!")
 
     except UserNotParticipant:
@@ -88,10 +88,10 @@ async def chk(_, cb : CallbackQuery):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🗯 Channel", url="https://t.me/unb_info"),
-                        InlineKeyboardButton("💬 Support", url="https://t.me/un_w0rld")
+                        InlineKeyboardButton("📝ᴜᴘᴅᴀᴛᴇs", url="https://t.me/unb_info"),
+                        InlineKeyboardButton("🖥️sᴜᴘᴘᴏʀᴛ", url="https://t.me/un_w0rld")
                     ],[
-                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://t.me/Auto_request_approve_7_bot?startgroup")
+                        InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ➕", url="https://t.me/Auto_request_approve_7_bot?startgroup")
                     ]
                 ]
             )
